@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('bebasneue-webfont.woff');
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: "BebasNeue", Serif;
+}
+body{
+  background-image: url('fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+  .content_main{
+    width: 100%;
+    height: 100vh;
+  }
+.title_logo{
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title_logo img{
+  width: 150px;
+}
+.video{
+  width: 100%;
+  max-height: 420px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden; 
+}
+iframe{
+    max-width: 700px;
+    width: 100%; 
+    max-height: 420px;
+    height: 100%;
+    box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.25);
+}
+.content_team{
+  width: 100%;
+  min-height: 90vh;
+  top: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content_team h2{
+  font-size: 60px;
+  color: #FFF;
+  background: #005627;
+}
+.content_team .members{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 30px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.members .member{
+  width: 220px;
+  height: 280px;
+  margin: 0px 3px 20px 3px;
+  text-align: center;
+}
+.member .photo{
+  width: 100%;
+  height: 260px;
+  background-color: #EEE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.20);
+}
+.member .photo img{
+  max-width: 100%;
+}
+footer{
+  width: 100%;
+  height: 10vh;
+  background-color: #EEE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
